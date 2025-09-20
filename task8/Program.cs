@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+List<string> items = new List<string>{ "apple", "banana", "cherry" };
+bool found;
+found = items.Contains("banana");
+Console.WriteLine("Is the element found? " + found);
